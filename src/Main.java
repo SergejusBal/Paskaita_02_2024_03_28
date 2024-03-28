@@ -133,6 +133,36 @@ public class Main {
             System.out.println(zodis.charAt(x));
         }
 
+        ///////////////////////////////////////////
+        ////// Extra
+    //// Pavyzdys pagal kita kolega.
+        System.out.println("Primes");
 
+        for (int x = 9; x < 2778; x++) {
+            int d = 0;
+            int isdu = 1;
+            for (int y = 2; y <=x; y++) {
+                int k = x % y;
+                switch (k) {
+                    case 0:
+                        d +=1;
+                        break;
+                    default:
+                      //  isdu=x%2;
+                }
+            }
+
+            switch (d)  {
+                case 0:
+                    System.out.println(x);
+                    break;
+                case 1:
+                    System.out.println(x);
+                    break;
+            }
+
+        }
     }
+
+
 }
